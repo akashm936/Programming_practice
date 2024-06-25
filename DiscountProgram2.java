@@ -6,7 +6,7 @@ class DiscountProgram2
 		
 		Scanner input = new Scanner(System.in);
 
-		int price = 0;
+		int price = input.nextInt();
 		double discount = 0;
 
 		if(price > 500)
@@ -17,7 +17,7 @@ class DiscountProgram2
 		{
 			discount = price -(price*0.05);
 		}
-
-		System.out.println(discount);
+        System.out.println("original price : ");
+		System.out.println("Discount Price : "+discount);
 	}
 }
