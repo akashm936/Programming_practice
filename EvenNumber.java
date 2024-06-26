@@ -1,3 +1,9 @@
+// run status :true
+// 27-06-2024
+
+// find even number between the two number 
+
+
 import java.util.Scanner;
 
 class EvenNumber
