@@ -17,7 +17,7 @@ class Quetion1
         }
 
         for(int i=b;i<=e;i++){
-              op=arr[i];
+              arr[i]=
         }
         System.out.println(op);
 	}
