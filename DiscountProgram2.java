@@ -18,7 +18,7 @@ class DiscountProgram2
 			discount = price-(price*0.10);
 		}
 		else if(price >= 250 && price <=500)
-		{8956055703
+		{///8956055703
 			discount = price -(price*0.05);
 		}
         System.out.println("original price : ");

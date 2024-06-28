@@ -6,8 +6,7 @@ import java.util.Scanner;
 class LcmMethod
 {
 
-	public int lcmMe(int num1,int num2)
-            	{
+	public void lcmMe(int num1,int num2){
 
 		for(int i=0; ; i++)
 		{
@@ -17,7 +16,7 @@ class LcmMethod
 
 				break;
 			}
-			return 0;
+			//return 0;
 		}
 
 	}
