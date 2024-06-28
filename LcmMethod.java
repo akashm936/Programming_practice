@@ -1,19 +1,23 @@
 // run status  :
 
 //28-07-2024
+import java.util.Scanner;
 
 class LcmMethod
 {
 
-	public static int lcmMe(int num1,int num2)
-	{
+	public int lcmMe(int num1,int num2)
+            	{
 
-		for(; ; i++)
+		for(int i=0; ; i++)
 		{
 			if(i%num1==0&&i%num2==0)
 			{
 				System.out.println("The LCM is :"+i);
+
+				break;
 			}
+			return 0;
 		}
 
 	}
@@ -26,7 +30,7 @@ class LcmMethod
 		System.out.println("Enter a second number : ");
 		int num2 = input.nextInt();
          
-        LcmMethod obj = new LcmMethod();
-		obj.lcmMe();
+        LcmMethod o = new LcmMethod();
+		o.lcmMe(num1,num2);
 	}
 }
