@@ -7,14 +7,26 @@ class ConvertString
 		Scanner input= new Scanner(System.in);
 
 		System.out.println("Enter a String");
-		int sa = input.nextLine().LowerCase();
+		String sa = input.nextLine().toLowerCase();
+
+        String newString ="";
 
 		for(int i=0;i<sa.length();i++)
 		{
 			if(i%2==0)
 			{
-				sa= sa.charAt(0).upperCase();
+				newString = newString+sa.substring(i,i+1).toUpperCase();
+			}
+			else
+			{
+				newString = newString+sa.substring(i,i+1);
 			}
 		}
+		System.out.println("Before converting : "+sa );
+		System.out.println("After converting : "+newString);
 	}
 }
+
+
+//wajp to remove the repeated character in given String
+
