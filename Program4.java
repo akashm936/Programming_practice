@@ -16,5 +16,16 @@ class Program4
             System.out.println("age is invalid");
         }
         else if(ramu < raghu && ramu < raju )
+        {
+            System.out.println(ramu);
+        }
+        else if(raghu < raju )
+        {
+            System.out.println(raghu);
+        }
+        else
+        {
+            System.out.println(raju);
+        }
     }
 }
