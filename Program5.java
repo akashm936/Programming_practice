@@ -15,5 +15,16 @@ public class Program5 {
         {
             System.out.println(num1);
         }
+        else if(num2 > num3 && num2 > num4)
+        {
+            System.out.println(num2);
+        }
+        else if(num3 > num4)
+        {
+            System.out.println(num3);
+        }
+        else{
+            System.out.println(num4);
+        }
     }
 }
