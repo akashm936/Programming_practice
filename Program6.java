@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 
@@ -14,7 +15,7 @@ public class Program6 {
         }
         else if(hour >=17 && hour <= 20)
         {
-           System.out.println("Good Afternoon")
+           System.out.println("Good Afternoon");
         }
         else if(hour >= 17 && hour <= 20)
         {
