@@ -14,5 +14,7 @@ class Program8
 	    	count++;
 
 	    int num2 =sc.nextInt();
+
+	    count = num2%==0 ? count+1 :count;
 	}
 }
