@@ -8,6 +8,11 @@ class Program8
 	    
 	    int count =0;
 
-	    int num1 
+	    int num1 = sc.nextInt();
+
+	    if(num1 %2==0)
+	    	count++;
+
+	    int num2 =sc.nextInt();
 	}
 }
