@@ -7,5 +7,9 @@ class program7
 	    Scanner sc = new Scanner(System.in);
 
 	    double cur_temp = sc.nextDouble(); 
+	     cur_temp = cur_temp*(9.0/5)+32;
+
+	     System.out.println(cur_temp);
+
 	}
 }
