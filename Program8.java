@@ -20,5 +20,19 @@ class Program8
         int num3 = sc.nextInt();
 
         count = num3 %2==0? count+1 : count;
+        
+        switch(count){
+        case 1:{
+        	if(num1%2==0)
+        		System.out.println(num1);
+        	if(num2%2==0)
+        		System.out.print(num2);
+        	if(num3%2==0){
+        		System.out.println(num3);
+        	}break;
+        }
+    case 
+        }
+
 	}
 }
