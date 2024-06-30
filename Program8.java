@@ -17,6 +17,8 @@ class Program8
 
 	    count = num2%==0 ? count+1 :count;
 	
-        int num3 = 
+        int num3 = sc.nextInt();
+
+        count = num3 %2==0? count+1 : count;
 	}
 }
