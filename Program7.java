@@ -2,8 +2,10 @@
 
 //30-06-2024
 
+
+// ths program is check the range of temperature
 import java.util.Scanner;
-class program7
+class Program7
 {
 	public static void main(String[] args) {
 		
