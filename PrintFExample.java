@@ -13,6 +13,6 @@ class PrintFExample
         	int input2 = scanner.nextInt();
         	System.out.printf(" %-14s , %03d\n",input1,input2);
         }
-        System.out.println("===========================");
-	}	
+    }     
+
 }
