@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
+// this program is used to find the largest element from used given array
+
 class ArrayAssignment2
 {
 	public static void main(String[] args) {
